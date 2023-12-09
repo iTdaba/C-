@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int *d=new int(8);
+    cout<<"before delete"<<endl;
+    cout<<"d:"<<d<<endl<<"*d:"<<*d<<endl;
+    delete d;
+    cout<<"after delete"<<endl;
+    cout<<"d:"<<d<<endl<<"*d:"<<*d<<endl;
+}
+//程序运行结果
+// before delete
+// d:0xa11970
+// *d:8
+// after delete
+// d:0xa11970
+// *d:8
