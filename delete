@@ -15,3 +15,9 @@ int main(){
 // after delete
 // d:0xa11970
 // *d:8
+//before delete
+d:0x5596c8189eb0
+*d:8
+after delete
+d:0x5596c8189eb0
+*d:0
